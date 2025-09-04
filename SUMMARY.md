@@ -1,24 +1,32 @@
-# Table of contents
+# Table of Contents
 
-* [overview](README.md)
-* [changelog](changelog.md)
+* [Introduction](README.md)
 
-## getting started
+## Getting Started
+* [Installation & Setup](getting-started/installation.md)
+* [Configuration](getting-started/configuration.md)
+* [First Steps](getting-started/first-steps.md)
 
-* [basic setup](getting-started/basic-setup.md)
-* [variables](getting-started/variables.md)
+## Core Features
+* [Ticket System](features/ticket-system.md)
+* [Embed Builder](features/embed-builder.md)
+* [Auto Responders](features/auto-responders.md)
+* [Sticky Messages](features/sticky-messages.md)
+* [Reminders](features/reminders.md)
+* [Utilities](features/utilities.md)
 
-## commands
+## Administration
+* [Logging System](administration/logging.md)
+* [Server Stats](administration/server-stats.md)
+* [Developer Commands](administration/developer-commands.md)
+* [Web Dashboard](administration/web-dashboard.md)
 
-* [Utility](commands/utility.md)
-* [Ticket System](commands/ticket-system.md)
-* [auto responder](commands/auto-responder.md)
-* [sticky message](commands/sticky-message.md)
-* [reminders](commands/reminders.md)
-* [embed builder](commands/embed-builder.md)
+## Deployment
+* [Digital Ocean App Platform](deployment/digital-ocean.md)
+* [Production Setup](deployment/production.md)
+* [Environment Variables](deployment/environment-variables.md)
 
-## Links
-
-* [Vote for the bot](https://top.gg/bot/980936828242788422)
-* [support server](https://discord.gg/239DttKQ)
-* [invite the bot](https://discord.com/oauth2/authorize?client_id=980936828242788422\&permissions=8\&integration_type=0\&scope=applications.commands+bot)
+## Support
+* [Troubleshooting](support/troubleshooting.md)
+* [FAQ](support/faq.md)
+* [Contact](support/contact.md)
