@@ -6,11 +6,11 @@ This guide will walk you through setting up Sprouts Discord bot from scratch.
 
 Before you begin, ensure you have:
 
-- **Python 3.11 or higher** installed on your system
-- **Git** for cloning the repository
-- **Discord Developer Account** to create a bot application
-- **MongoDB Database** (local or cloud instance)
-- **Text Editor** or IDE for configuration
+* **Python 3.11 or higher** installed on your system
+* **Git** for cloning the repository
+* **Discord Developer Account** to create a bot application
+* **MongoDB Database** (local or cloud instance)
+* **Text Editor** or IDE for configuration
 
 ## 🤖 Creating a Discord Bot
 
@@ -26,9 +26,9 @@ Before you begin, ensure you have:
 1. Navigate to the **"Bot"** section in the left sidebar
 2. Click **"Add Bot"**
 3. Under **"Privileged Gateway Intents"**, enable:
-   - ✅ **Presence Intent**
-   - ✅ **Server Members Intent** 
-   - ✅ **Message Content Intent**
+   * ✅ **Presence Intent**
+   * ✅ **Server Members Intent**
+   * ✅ **Message Content Intent**
 
 ### Step 3: Get Bot Token
 
@@ -76,12 +76,14 @@ EMBED_COLOR_HIERARCHY=0xFFE682
 ### Step 4: MongoDB Setup
 
 #### Option A: MongoDB Atlas (Cloud)
+
 1. Create account at [MongoDB Atlas](https://www.mongodb.com/atlas)
 2. Create a new cluster
 3. Get connection string
 4. Add to `MONGO_URI` in `.env`
 
 #### Option B: Local MongoDB
+
 ```bash
 # Install MongoDB locally
 # Ubuntu/Debian
@@ -112,6 +114,7 @@ python main.py
 ```
 
 You should see output similar to:
+
 ```
 INFO: Starting Sprouts Bot (Production Mode)...
 INFO: Bot is starting up...
@@ -128,19 +131,21 @@ Visit `http://localhost:5000` to access the web dashboard and verify everything 
 When inviting the bot to your server, ensure it has these permissions:
 
 ### Essential Permissions
-- ✅ **Read Messages**
-- ✅ **Send Messages** 
-- ✅ **Embed Links**
-- ✅ **Attach Files**
-- ✅ **Read Message History**
-- ✅ **Add Reactions**
-- ✅ **Use External Emojis**
+
+* ✅ **Read Messages**
+* ✅ **Send Messages**
+* ✅ **Embed Links**
+* ✅ **Attach Files**
+* ✅ **Read Message History**
+* ✅ **Add Reactions**
+* ✅ **Use External Emojis**
 
 ### Administrative Permissions
-- ✅ **Manage Messages** (for sticky messages)
-- ✅ **Manage Channels** (for ticket system)
-- ✅ **Manage Roles** (for ticket permissions)
-- ✅ **View Audit Log** (for logging features)
+
+* ✅ **Manage Messages** (for sticky messages)
+* ✅ **Manage Channels** (for ticket system)
+* ✅ **Manage Roles** (for ticket permissions)
+* ✅ **View Audit Log** (for logging features)
 
 ### Invite URL Generator
 
@@ -173,21 +178,25 @@ s.sticky add    # Create sticky message
 ## ❌ Common Issues
 
 ### Bot Not Responding
-- ✅ Check bot token is correct
-- ✅ Verify bot has message permissions
-- ✅ Ensure intents are enabled
+
+* ✅ Check bot token is correct
+* ✅ Verify bot has message permissions
+* ✅ Ensure intents are enabled
 
 ### Database Connection Failed
-- ✅ Verify MongoDB is running
-- ✅ Check connection string format
-- ✅ Ensure database allows connections
+
+* ✅ Verify MongoDB is running
+* ✅ Check connection string format
+* ✅ Ensure database allows connections
 
 ### Missing Dependencies
+
 ```bash
 pip install --upgrade -r requirements.txt
 ```
 
 ### Port Already in Use
+
 ```bash
 # Kill process using port 5000
 sudo lsof -ti:5000 | xargs kill -9
@@ -197,10 +206,10 @@ sudo lsof -ti:5000 | xargs kill -9
 
 Once installation is complete:
 
-1. **[Configure Basic Settings](configuration.md)** - Set up prefixes, colors, and channels
-2. **[Take First Steps](first-steps.md)** - Learn essential commands and setup
-3. **[Explore Features](../features/)** - Dive into tickets, embeds, and automation
+1. [**Configure Basic Settings**](configuration.md) - Set up prefixes, colors, and channels
+2. [**Take First Steps**](faq.md) - Learn essential commands and setup
+3. [**Explore Features**](../features/) - Dive into tickets, embeds, and automation
 
----
+***
 
 **Need help?** Check our [Troubleshooting Guide](../support/troubleshooting.md) or join the support server.

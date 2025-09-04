@@ -70,21 +70,27 @@ Each server has its own configuration stored in `config/` directory:
 Configure different types of logging:
 
 #### Command Logging
+
 Track all bot command usage:
+
 ```
 s.setcmdlog #bot-commands
 s.removecmdlog  # Disable command logging
 ```
 
-#### DM Logging  
+#### DM Logging
+
 Monitor direct messages sent to the bot:
+
 ```
 s.setdmlog #dm-logs
 s.removedmlog  # Disable DM logging
 ```
 
 #### Event Logging
+
 Log server events (joins, leaves, etc.):
+
 ```
 s.toggleeventlog  # Enable/disable event logging
 ```
@@ -98,10 +104,11 @@ s.serverstats setup #stats-channel
 ```
 
 This creates auto-updating embeds showing:
-- 👥 **Member Count**
-- 🤖 **Bot Count** 
-- 📊 **Total Users**
-- 📈 **Growth Statistics**
+
+* 👥 **Member Count**
+* 🤖 **Bot Count**
+* 📊 **Total Users**
+* 📈 **Growth Statistics**
 
 ## 🎫 Ticket System Configuration
 
@@ -115,10 +122,10 @@ s.ticket setup
 
 This opens an interactive setup panel where you can configure:
 
-- **🏷️ Category** - Where ticket channels are created
-- **👥 Staff Roles** - Who can manage tickets
-- **📝 Log Channel** - Where ticket activities are recorded
-- **🎨 Embed Settings** - Customize ticket panel appearance
+* **🏷️ Category** - Where ticket channels are created
+* **👥 Staff Roles** - Who can manage tickets
+* **📝 Log Channel** - Where ticket activities are recorded
+* **🎨 Embed Settings** - Customize ticket panel appearance
 
 ### Advanced Ticket Settings
 
@@ -155,10 +162,10 @@ s.embeddel name    # Delete saved embed
 
 Set up default embed templates for common use cases:
 
-- **Welcome Messages**
-- **Server Rules** 
-- **Announcement Templates**
-- **Ticket Responses**
+* **Welcome Messages**
+* **Server Rules**
+* **Announcement Templates**
+* **Ticket Responses**
 
 ## 🤖 Auto Responder Configuration
 
@@ -229,9 +236,10 @@ Configure reminder limitations and defaults:
 ### Time Parsing Configuration
 
 Supported time formats:
-- **Natural**: `in 5 minutes`, `tomorrow at 3pm`
-- **Relative**: `5m`, `2h`, `1d`, `1w`
-- **Absolute**: `2023-12-25 15:30`
+
+* **Natural**: `in 5 minutes`, `tomorrow at 3pm`
+* **Relative**: `5m`, `2h`, `1d`, `1w`
+* **Absolute**: `2023-12-25 15:30`
 
 ## 🔒 Permission Configuration
 
@@ -355,11 +363,11 @@ s.health permissions # Permission validation
 
 Most settings can be updated without restarting the bot:
 
-- ✅ **Prefixes** - Immediate effect
-- ✅ **Logging channels** - Immediate effect  
-- ✅ **Ticket settings** - Immediate effect
-- ❌ **Environment variables** - Requires restart
-- ❌ **Database settings** - Requires restart
+* ✅ **Prefixes** - Immediate effect
+* ✅ **Logging channels** - Immediate effect
+* ✅ **Ticket settings** - Immediate effect
+* ❌ **Environment variables** - Requires restart
+* ❌ **Database settings** - Requires restart
 
 ### Backup & Restore
 
@@ -371,6 +379,6 @@ python scripts/backup_config.py
 python scripts/restore_config.py backup_2023_12_25.json
 ```
 
----
+***
 
-**Next:** Learn the [First Steps](first-steps.md) to start using your configured bot effectively.
+**Next:** Learn the [First Steps](faq.md) to start using your configured bot effectively.
