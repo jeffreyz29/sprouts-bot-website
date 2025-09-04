@@ -4,9 +4,7 @@
 
 ## Getting Started
 
-* [Installation & Setup](getting-started/installation.md)
-* [Configuration](getting-started/configuration.md)
-* [FAQ](getting-started/faq.md)
+* [FAQ](getting-started/first-steps.md)
 
 ## Core Features
 
