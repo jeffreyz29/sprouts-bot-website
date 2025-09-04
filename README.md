@@ -1,88 +1,56 @@
-# Sprouts Discord Bot Documentation
+# overview
 
-Welcome to the comprehensive documentation for **Sprouts**, a feature-rich Discord bot designed for server management and community engagement.
+## Sprout Discord Bot
 
-## 🌱 What is Sprouts?
+welcome to the official documentation for Sprouts Discord Bot - comprehensive, rich-feature discord bot designed for APM management.
 
-Sprouts is a production-ready Discord bot that provides a complete suite of tools for Discord server administrators and community managers. Built with Python and discord.py, it offers professional-grade features with a cute, distinctive design that sets it apart from other Discord bots.
+## What is Sprout?
 
-### ✨ Key Features
+Sprout is a versatile Discord bot built with Python and discord.py. Designed to enhance server management, it offers customizable commands, seamless ticket handling for APM portals, and tools that help your community stay organized and engaged.
 
-- **🎫 Advanced Ticket System** - Complete support ticket management with panels, claiming, priorities, and transcripts
-- **📝 Visual Embed Builder** - Create beautiful embeds with live preview and dropdown menus
-- **🤖 Auto Responders** - Automated message responses with trigger-based activation
-- **📌 Sticky Messages** - Persistent channel messages that automatically repost
-- **⏰ Smart Reminders** - User reminder system with natural time parsing
-- **🛠️ Server Utilities** - Info commands, avatar display, ping checks, and more
-- **📊 Real-time Monitoring** - Web dashboard with live statistics and logs
-- **🔍 Comprehensive Logging** - Command logging, DM logging, and event tracking
+## Key Features
 
-### 🎨 Unique Design
+***
 
-Sprouts features custom animated emoji branding that creates a cohesive, professional appearance:
+**General**\
+Basic commands to get bot info, invites, and voting options.
 
-- 🌱 **SPROUTS_CHECK** - Success and confirmation actions
-- ⚠️ **SPROUTS_WARNING** - Warning and caution messages  
-- ❌ **SPROUTS_ERROR** - Error and failure notifications
+**Utilities**\
+Helpful server tools for checking user, role, channel, and server details, managing prefixes, and viewing bot stats.
 
-## 🚀 Quick Start
+**Tickets**\
+Full-featured support system to create, manage, and organize tickets with customizable panels and priorities.
 
-1. **Invite the Bot** - Add Sprouts to your Discord server
-2. **Set Permissions** - Configure roles and channels
-3. **Customize Settings** - Use setup commands to tailor features
-4. **Start Managing** - Begin using tickets, embeds, and automation
+**Embed Builder**\
+Create, edit, and manage Discord embeds easily with a visual editor or templates.
 
-## 📚 Documentation Structure
+**Auto Responders**\
+Automate responses in your server with custom triggers that can be added, edited, or toggled.
 
-This documentation is organized into several sections:
+**Sticky Messages**\
+Keep important messages visible in channels by pinning them automatically, with control over speed and placement.
 
-- **Getting Started** - Installation, configuration, and initial setup
-- **Core Features** - Detailed guides for each major system
-- **Administration** - Logging, monitoring, and management tools
-- **Deployment** - Production setup and hosting guides
-- **Support** - Troubleshooting, FAQ, and help resources
+**Reminders**\
+Set and manage personal reminders to stay organized and on schedule.
 
-## 🏗️ Built With
+{% hint style="danger" %}
+Sprouts requires certain permissions to function correctly. Please ensure the bot has the necessary roles and access in your server, including managing messages, reading channels, and sending messages. Insufficient permissions may prevent some features, like tickets, embeds, or auto responders, from working properly.
+{% endhint %}
 
-- **Python 3.11** - Core programming language
-- **discord.py 2.3.2** - Discord API wrapper
-- **Flask** - Web dashboard framework
-- **MongoDB** - Data persistence (optional)
-- **Digital Ocean** - Recommended deployment platform
+### Support <a href="#support" id="support"></a>
 
-## 🎯 Target Audience
+Need help? Here are your options:
 
-This bot is designed for:
+* **Browse this documentation** for detailed command guides
+* **Use `s.help <command name>`** for specific command help
+* **Join our** [**support server** ](https://discord.com/invite/45jND7kH9Q)for live assistance
+* **Check the troubleshooting guide** for common issues
 
-- **Server Administrators** who need professional moderation tools
-- **Community Managers** seeking engagement features
-- **Support Teams** requiring ticket management systems
-- **Developers** wanting customizable automation
+### **Documentation Syntax**
 
-## 📋 System Requirements
-
-- **Python 3.11+**
-- **Discord Bot Token**
-- **MongoDB Database** (recommended)
-- **1GB RAM minimum** (2GB+ recommended for production)
-- **Stable Internet Connection**
-
-## 🔐 Security & Privacy
-
-Sprouts is built with security in mind:
-
-- **Role-based Permissions** - Granular access control
-- **Secure Token Handling** - Environment variable protection
-- **Data Encryption** - Safe storage of sensitive information
-- **Privacy Compliance** - Minimal data collection
-
-## 🆘 Need Help?
-
-- **Documentation** - Comprehensive guides and tutorials
-- **Troubleshooting** - Common issues and solutions
-- **Community Support** - Discord server for assistance
-- **Direct Contact** - Developer support channels
-
----
-
-**Ready to get started?** Head to the [Installation & Setup](getting-started/installation.md) guide to begin using Sprouts in your Discord server.
+* bot prefix: `s.`&#x20;
+* `<#channelID>` - required channel parameter (works with channel id or channel mention)
+* `< >` - required parameter
+* `[ ]` - optional parameter
+* `[thing 1| thing 2]` - Choose one of the given option
+* `...` - Can repeat multiple times
