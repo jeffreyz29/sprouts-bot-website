@@ -5,6 +5,8 @@
 ## Getting Started
 
 * [FAQ](getting-started/first-steps.md)
+* [Variables](getting-started/variables.md)
+* [Setting up the bot](getting-started/setting-up-the-bot.md)
 
 ## Core Features
 
@@ -14,19 +16,6 @@
 * [Sticky Messages](features/sticky-messages.md)
 * [Reminders](features/reminders.md)
 * [Utilities](features/utilities.md)
-
-## Administration
-
-* [Logging System](administration/logging.md)
-* [Server Stats](administration/server-stats.md)
-* [Developer Commands](administration/developer-commands.md)
-* [Web Dashboard](administration/web-dashboard.md)
-
-## Deployment
-
-* [Digital Ocean App Platform](deployment/digital-ocean-app-platform.md)
-* [Production Setup](deployment/production-setup.md)
-* [Environment Variables](deployment/environment-variables.md)
 
 ## Support
 

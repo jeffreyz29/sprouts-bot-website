@@ -4,9 +4,7 @@
 
 The Sprouts ticket system provides a professional support experience for Discord servers, enabling users to get help privately while giving staff powerful management tools.
 
-## Staff Commands Reference
-
-### Basic Commands
+### Commands
 
 | Command         | Description                                  | Usage                    |
 | --------------- | -------------------------------------------- | ------------------------ |
