@@ -6,7 +6,7 @@
 
 * [FAQ](getting-started/first-steps.md)
 * [Variables](getting-started/variables.md)
-* [Setting up the bot](getting-started/setting-up-the-bot.md)
+* [Guides](getting-started/guides.md)
 
 ## Core Features
 
@@ -17,8 +17,7 @@
 * [Reminders](features/reminders.md)
 * [Utilities](features/utilities.md)
 
-## Support
+## Quick Links
 
-* [Troubleshooting](support/troubleshooting.md)
-* [FAQ](support/faq.md)
-* [Contact](support/contact.md)
+* [Page](quick-links/page.md)
+* [Page 1](quick-links/page-1.md)
